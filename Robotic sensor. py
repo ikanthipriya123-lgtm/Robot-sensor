@@ -1,0 +1,14 @@
+# Robot-sensor
+
+# Taking destance from user
+user = float(input("Destance value: "))
+
+# Giving message to robot
+if user < 0:
+    print("Sensor error: dicstance is not considered in negaitve numbers")
+elif user <= 10:
+    print('Danger! STOP IMMEDIATELY and return back')    
+elif user <=  30:
+    print("Careful SLOW DOWN turn left")  
+else:
+    print("Way was cleared MOVE FORWORD")  
